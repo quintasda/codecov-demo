@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Test Python API
+    name: Test python API
     steps:
     - uses: actions/checkout@v4
     - uses: actions/setup-python@v2
