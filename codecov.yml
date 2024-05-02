@@ -4,10 +4,8 @@ coverage:
       default:
         target: 100%
         threshold: 1%
-
 comment:
-  layout: "condensed_header, diff, flags, components"
-  
+  layout: "header, diff, flags, components"
 
 component_management:
   individual_components:
